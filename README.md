@@ -26,8 +26,8 @@ kde $p(T) = \int_{-a}^{a}|\psi|^2\,dx$ a $J_\pm(T) = \pm\int_0^T \mathrm{Im}(\ps
 
 | Soubor | Popis |
 |---|---|
-| `schrodinger.cpp` | Simulace – Crank-Nicolson, generování dat |
-| `python_plot.py` | Vizualizace – vlnové funkce, toky, konvergence |
+| `main.cpp` | Simulace – Crank-Nicolson, generování dat |
+| `plotting.py` | Vizualizace – vlnové funkce, toky, konvergence |
 
 ## Požadavky
 
@@ -48,16 +48,14 @@ pip install numpy matplotlib
 
 ```bash
 # Kompilace
-g++ -O2 -std=c++17 -o schrodinger schrodinger.cpp
+g++ -O2 -std=c++17 -o main main.cpp
 
 # Spuštění simulace (generuje datové soubory)
-./schrodinger
+./main
 
 # Vizualizace
-python3 python_plot.py
+python3 plotting.py
 ```
-
-Simulace trvá přibližně 1–2 minuty (tři různé sítě pro konvergenční studii).
 
 ## Výstupní soubory
 
