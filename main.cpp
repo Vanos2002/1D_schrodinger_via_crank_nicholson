@@ -197,7 +197,7 @@ void runSimulation(
     auto V    = initializePotential(g);
 
     std::ofstream outP(filePrefix + "_prob.dat");
-    outP << "t p J_plus J_minus J_plus_cum J_minus_cum conservation\n";
+    outP << "t p J_plus J_minus J_plus_cumul J_minus_cumul conservation\n";
 
     double J_plus_cumul  = 0.0;   // kumulativní integrál  ∫ j(+a) dt
     double J_minus_cumul = 0.0;   // kumulativní integrál  ∫ j(-a) dt
