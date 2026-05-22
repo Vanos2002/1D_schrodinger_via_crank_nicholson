@@ -20,7 +20,7 @@ Studuje se únik částice z potenciálové bariéry přes zákon zachování pr
 
 $$1 = p(T) + J_+(T) + J_-(T)$$
 
-kde $p(T) = \int_{-a}^{a}|\psi|^2\,dx$ a $J_\pm(T) = \pm\int_0^T \mathrm{Im}(\psi^*\partial_x\psi)\big|_{x=\pm a}\,dt$.
+kde $p(T) = \int_{-a}^{a}|\psi|^2dx$ a $J_\pm(T) = \pm\int_0^T \mathrm{Im}(\psi^*\partial_x\psi)\big|_{x=\pm a}dt$.
 
 ## Soubory
 
